@@ -1,0 +1,37 @@
+table{
+border: solid black; 
+border-collapse:collapse;
+}
+
+tr{
+width: 30px;
+height: 30px;
+border:solid;
+}
+
+td{
+width: 30px;
+height: 30px;
+border:solid;
+}
+
+.bgImage {
+    background-image: url("../images/delorian.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 200%;
+}
+.explosion-container {
+    text-align: center; /* Centra los elementos horizontalmente dentro del contenedor */
+}
